@@ -106,6 +106,25 @@ main {
     padding-top: 10px;
     width: 370px;
   }
+  main .vallasagna {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  main .porciones {
+    display: flex;
+    flex-direction: row;
+  }
+  main .valpizza {
+    padding-left: 40px;
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

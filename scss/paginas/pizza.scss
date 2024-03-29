@@ -3,14 +3,16 @@ main{
         @media (max-width: 576px){
             @content;
         }
+    }
 
-        @include media-query-mobile(){
-            h2{
-            }
-            .porciones{
-                display: flex;
-                flex-direction: row;
-            }
+    @include media-query-mobile(){
+        .porciones{
+            display: flex;
+            flex-direction: row;
+        }
+        .valpizza{
+            padding-left: 40px;
+            font-size: 20px;
         }
     }
 }
