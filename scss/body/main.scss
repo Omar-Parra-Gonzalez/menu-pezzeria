@@ -1,0 +1,50 @@
+main{
+    background-image: url(../imagenes/banner.avif);
+
+
+    @mixin media-query-mobile{
+        @media (max-width: 576px){
+            @content;
+        }
+    }
+
+    @include media-query-mobile(){
+        .titulo-imagen{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 18px;
+            padding-top: 15px;
+            h1{
+                padding-top: 20px;
+                font-size: 40px;
+                color: white;
+            }
+            img{
+                width: 165px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .sub-titulo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        h2{
+            font-size: 34px;
+            text-align: center;
+        }
+        .gif{
+            img{
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+                width: 370px;
+            }
+            padding-bottom: 20px;
+
+        }
+    }
+}
