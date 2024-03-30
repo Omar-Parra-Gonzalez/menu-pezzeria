@@ -1,68 +1,45 @@
 * p, * ul {
   color: white;
   font-size: 18px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
-* h1, * h2, * h3 {
+* h1, * h2, * h3, * h4 {
   color: white;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+* .pie {
+  text-align: center;
 }
 
 footer {
   background-color: orange;
 }
-footer .contacto {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5% 10%;
-}
-@media (max-width: 576px) {
-  footer .contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-footer .contacto img {
-  margin-right: 5%;
-}
-footer .text-contacto {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-left: 30px;
-}
-@media (max-width: 576px) {
-  footer .text-contacto {
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 15px;
-    margin-top: 40px;
-  }
-  footer .text-contacto img {
-    width: 25%;
-  }
-}
-footer .mapa {
-  width: 50%;
-}
-footer .mapa iframe {
-  width: 100%;
-  height: 400px;
-  justify-content: space-around;
-}
-@media (max-width: 576px) {
-  footer .mapa iframe {
-    width: 100%;
-    height: 300px;
-  }
-}
 @media (max-width: 576px) {
   footer .mapa {
     width: 100%;
+  }
+  footer .mapa iframe {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  footer .text-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .text-contacto img {
+    width: 20%;
+  }
+  footer .text-contacto h4 {
+    font-size: 20px;
   }
 }
 
@@ -73,17 +50,17 @@ main {
   main .titulo-imagen {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-left: 18px;
     padding-top: 15px;
+    padding-left: 10px;
+    align-items: center;
   }
   main .titulo-imagen h1 {
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 38px;
     color: white;
   }
   main .titulo-imagen img {
-    width: 165px;
+    width: 130px;
   }
   main .titulo-imagen p {
     font-size: 15px;
@@ -92,6 +69,13 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  main .sub-titulo b {
+    font-size: 20px;
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   main h2 {
     font-size: 34px;
@@ -104,7 +88,25 @@ main {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    width: 370px;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  main .porciones {
+    display: flex;
+    flex-direction: row;
+  }
+  main .valpizza {
+    padding-left: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  main h2 {
+    padding-top: 20px;
   }
   main .vallasagna {
     display: flex;
@@ -117,13 +119,12 @@ main {
 }
 
 @media (max-width: 576px) {
-  main .porciones {
-    display: flex;
-    flex-direction: row;
+  main .portada {
+    text-align: center;
   }
-  main .valpizza {
-    padding-left: 40px;
-    font-size: 20px;
+  main .imgaseosa img {
+    width: 100%;
+    padding-bottom: 50px;
   }
 }
 

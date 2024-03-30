@@ -2,9 +2,20 @@
     p,ul{
         color: white;
         font-size: 18px;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    h1,h2,h3,h4{
+        color: white;
+        font-family: "Edu NSW ACT Foundation", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    .pie{
+        text-align: center;
     }
 
-    h1,h2,h3{
-        color: white;
-    }
 }
