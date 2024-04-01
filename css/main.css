@@ -45,9 +45,8 @@ footer {
 }
 
 main {
-  background-image: url(../imagenes/banner.avif);
+  background-image: url(../imagenes/banner.jpg);
   background-position: center;
-  opacity: 100;
 }
 @media (max-width: 576px) {
   main .titulo-imagen {
@@ -101,10 +100,20 @@ main {
   main .porciones {
     display: flex;
     flex-direction: row;
+    text-align: center;
   }
   main .valpizza {
     padding-left: 40px;
     font-size: 20px;
+  }
+  main .valpizza .text-bg-danger {
+    color: black !important;
+  }
+  main .valpizza .text-bg-success {
+    color: black !important;
+  }
+  main .valpizza .text-bg-primary {
+    color: black !important;
   }
 }
 
@@ -119,6 +128,12 @@ main {
     font-size: 20px;
     justify-content: space-around;
     padding-bottom: 30px;
+  }
+  main .vallasagna .text-bg-success {
+    color: black !important;
+  }
+  main .vallasagna .text-bg-primary {
+    color: black !important;
   }
 }
 

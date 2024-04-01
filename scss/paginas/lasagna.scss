@@ -16,7 +16,12 @@ main{
             font-size: 20px;
             justify-content: space-around;
             padding-bottom: 30px;
+            .text-bg-success{
+                color: black !important;
+            }
+            .text-bg-primary{
+                color: black !important;
+            }
         }
-
     }
 }

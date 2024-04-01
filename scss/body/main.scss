@@ -1,7 +1,6 @@
 main{
-    background-image: url(../imagenes/banner.avif); 
+    background-image: url(../imagenes/banner.jpg);
     background-position: center;
-    opacity: 100;
     @mixin media-query-mobile{
         @media (max-width: 576px){
             @content;

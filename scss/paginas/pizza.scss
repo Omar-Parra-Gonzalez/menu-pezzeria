@@ -9,10 +9,20 @@ main{
         .porciones{
             display: flex;
             flex-direction: row;
+            text-align: center;
         }
         .valpizza{
             padding-left: 40px;
             font-size: 20px;
+            .text-bg-danger{
+                color: black !important;
+            }
+            .text-bg-success{
+                color: black !important;
+            }
+            .text-bg-primary{
+                color: black !important;
+            }
         }
     }
 }
