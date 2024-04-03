@@ -16,6 +16,10 @@
 * .pie {
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 footer {
@@ -101,6 +105,15 @@ main {
     display: flex;
     flex-direction: row;
     text-align: center;
+  }
+  main .porciones img {
+    height: 70px;
+  }
+  main .porciones .op {
+    width: 50%;
+  }
+  main .porciones p {
+    font-size: 12px;
   }
   main .valpizza {
     padding-left: 40px;
