@@ -104,6 +104,13 @@ main {
 }
 
 @media (max-width: 576px) {
+  main ul {
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
   main .porciones {
     display: flex;
     flex-direction: row;
@@ -150,6 +157,13 @@ main {
   }
   main .vallasagna .text-bg-primary {
     color: black !important;
+  }
+  main .vallasagna ul {
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
   }
 }
 
