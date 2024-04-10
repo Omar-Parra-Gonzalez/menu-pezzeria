@@ -6,7 +6,7 @@ main{
             @content;
         }
     }
-
+    
     @include media-query-mobile(){
         .titulo-imagen{
             display: flex;
