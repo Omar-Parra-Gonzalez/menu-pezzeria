@@ -1,4 +1,4 @@
-Este es un trabajo como freelance para una pizzeria
+Este es un trabajo para presentar a una pizzeria
 temas usados:
 html
 -scss
